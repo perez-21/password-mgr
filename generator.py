@@ -38,3 +38,15 @@ class Generator():
 
     def set_length(self, newLength):
         self._length = newLength
+
+    def __generate(self, symstate ,upperstate ,lowerstate ,numberstate ,length):
+    
+        password = 'password'
+        
+        #use setters to do appropriate setting, loll
+        
+
+        #generate password
+
+
+        return password
