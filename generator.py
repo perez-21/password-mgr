@@ -43,9 +43,10 @@ class Generator():
 
     def generate(self, symstate ,upperstate ,lowerstate ,numberstate ,newLength):
         
-        if (newLength < 2 or not upperstate or not symstate or not lowerstate or not numberstate):
+        if (newLength < 2):
             return 'error'
-            
+        elif (not upperstate and not symstate and not lowerstate and not numberstate):
+            return 'error'    
         
         password = ''
         
