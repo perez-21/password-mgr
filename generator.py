@@ -25,7 +25,7 @@ class Generator():
 
 
     def set_num(self, value):
-        self.__toogleNum = value
+        self.__toogleNum = value 
 
     def set_lowercase(self, value):
         self.__toogleLow = value
@@ -37,11 +37,12 @@ class Generator():
         self.__toogleSym = value
 
     def set_length(self, newLength):
-        self.__length = newLength
+        self.__length = newLength if newLength > 2 else 6
 
-    def __generate(self, symstate ,upperstate ,lowerstate ,numberstate ,length):
-    
-        password = 'password'
+    def __generate(self, symstate ,upperstate ,lowerstate ,numberstate ,newLength):
+        
+        #check for bad input
+
         
         #use setters to do appropriate setting, loll
         
