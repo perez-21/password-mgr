@@ -41,8 +41,11 @@ class Generator():
 
     def __generate(self, symstate ,upperstate ,lowerstate ,numberstate ,newLength):
         
-        #check for bad input
-
+        if (newLength < 2 or not upperstate or not symstate or not lowerstate or not numberstate):
+            return 'error'
+            
+        
+        password = 'password'
         
         #use setters to do appropriate setting, loll
         
