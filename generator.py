@@ -47,7 +47,7 @@ class Generator():
             return 'error'
             
         
-        password = 'password'
+        password = ''
         
         self.set_length(newLength)
         self.set_lowercase(lowerstate)
