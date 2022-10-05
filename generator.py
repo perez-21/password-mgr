@@ -47,7 +47,11 @@ class Generator():
         
         password = 'password'
         
-        #use setters to do appropriate setting, loll
+        self.set_length(newLength)
+        self.set_lowercase(lowerstate)
+        self.set_uppercase(upperstate)
+        self.set_num(numberstate)
+        self.set_sym(symstate)
         
 
         #generate password
