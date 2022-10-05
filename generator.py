@@ -1,43 +1,43 @@
 class Generator():
     
     def __init__(self) -> None:
-        self._length = 10
-        self._toogleSym = False
-        self._toogleLow = True
-        self._toogleUpp = True
-        self._toogleNum = True
+        self.__length = 10
+        self.__toogleSym = False
+        self.__toogleLow = True
+        self.__toogleUpp = True
+        self.__toogleNum = True
         pass
     
     def get_length(self,):
         return self.length
 
     def is_symbol(self,):
-        return self._toogleSym
+        return self.__toogleSym
 
     def is_lowercase(self,):
-        return self._toogleLow
+        return self.__toogleLow
 
     def is_uppercase(self,):
-        return self._toogleUpp
+        return self.__toogleUpp
 
     def is_num(self,):
-        return self._toogleNum
+        return self.__toogleNum
 
 
     def set_num(self, value):
-        self._toogleNum = value
+        self.__toogleNum = value
 
     def set_lowercase(self, value):
-        self._toogleLow = value
+        self.__toogleLow = value
 
     def set_uppercase(self, value):
-        self._toogleUpp = value
+        self.__toogleUpp = value
 
     def set_sym(self, value):
-        self._toogleSym = value
+        self.__toogleSym = value
 
     def set_length(self, newLength):
-        self._length = newLength
+        self.__length = newLength
 
     def __generate(self, symstate ,upperstate ,lowerstate ,numberstate ,length):
     
