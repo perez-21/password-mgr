@@ -1,3 +1,5 @@
+import random
+
 class Generator():
     
     def __init__(self) -> None:
