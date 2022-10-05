@@ -1,9 +1,9 @@
 class Generator():
     
     def __init__(self) -> None:
-        self.length = 10
-        toogleSym = False
-        toogleLow = True
-        toogleUpp = True
-        toogleNum = True
+        self._length = 10
+        self._toogleSym = False
+        self._toogleLow = True
+        self._toogleUpp = True
+        self._toogleNum = True
         pass
