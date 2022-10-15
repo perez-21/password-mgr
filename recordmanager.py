@@ -17,9 +17,18 @@ class Record_mgr:
         for i in record.keys():
             recordFile.write(record[i] + ' /' + i)
 
-
-    def get_record(self,):
-        pass
+    def get_record(self, partial_path, fileName):
+        # stop if path is invalid
+        if(False):
+            return "failure"
+        
+        # read file
+        self.currentFile = partial_path + fileName
+        recordFile = open(r"" + self.currentFile, "r")
+        record = []
+        record.append(recordFile.readline())
+        
+        recordFile.close()
 
 
     def delete_record(self,):
