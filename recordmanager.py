@@ -37,5 +37,5 @@ class Record_mgr:
         pass
     
 
-    def get_current_file(self,):
-        pass 
+    def get_current_file_path(self,):
+        return self.currentFile 
