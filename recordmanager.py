@@ -20,4 +20,11 @@ class Record_mgr:
 
     def get_record(self,):
         pass
+
+
+    def delete_record(self,):
+        pass
     
+
+    def get_current_file(self,):
+        pass 
