@@ -1,4 +1,4 @@
-class Record_mgr:
+class Record_mgr():
     
     
     def __init__(self,):
